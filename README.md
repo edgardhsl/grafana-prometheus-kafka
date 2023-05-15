@@ -14,8 +14,8 @@ Antes de começar, certifique-se de ter instalado o Docker e o Docker Compose em
 ### 1. Clone este repositório para o seu sistema:
 
 ```
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio
+git clone https://github.com/edgardhsl/grafana-prometheus-kafka.git
+cd grafana-prometheus-kafka
 ```
 
 ### 2. Edite o arquivo `prometheus.yml`:
