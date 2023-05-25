@@ -1,6 +1,19 @@
-# Grafana, Prometheus e Kafka Exporter com Docker Compose
+<br/>
+<p align="center">
+  <h1 align="center">grafana-prometheus-kafka</h1>
 
-Este repositório contém um arquivo `docker-compose.yml` que configura e inicia os serviços do Grafana, Prometheus e Kafka Exporter em contêineres Docker. O Grafana é usado como plataforma de visualização, o Prometheus para coletar métricas e o Kafka Exporter para exportar métricas do Kafka para o Prometheus.
+  <h3 align="center">Grafana, Prometheus e Kafka Exporter com Docker Compose.</h3>
+
+  <p align="center">
+  Este repositório contém um arquivo <code>docker-compose.yml</code> que configura e inicia os serviços do Grafana, Prometheus e Kafka Exporter em contêineres Docker. O Grafana é usado como plataforma de visualização, o Prometheus para coletar métricas e o Kafka Exporter para exportar métricas do Kafka para o Prometheus.
+    <br/>
+    <br/>
+    <br/>
+    <a href="https://github.com/edgardhsl/grafana-prometheus-kafka/issues">Report Bug</a>
+    .
+    <a href="https://github.com/edgardhsl/grafana-prometheus-kafka/issues">Request Feature</a>
+  </p>
+</p>
 
 ## Pré-requisitos
 
