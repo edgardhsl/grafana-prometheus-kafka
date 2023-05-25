@@ -15,6 +15,8 @@
   </p>
 </p>
 
+![Contributors](https://img.shields.io/github/contributors/edgardhsl/grafana-prometheus-kafka?color=dark-green) ![Forks](https://img.shields.io/github/forks/edgardhsl/grafana-prometheus-kafka?style=social) ![Stargazers](https://img.shields.io/github/stars/edgardhsl/grafana-prometheus-kafka?style=social) ![Issues](https://img.shields.io/github/issues/edgardhsl/grafana-prometheus-kafka) 
+
 ## Pré-requisitos
 
 Antes de começar, certifique-se de ter instalado o Docker e o Docker Compose em seu sistema. Você pode encontrar as instruções de instalação nos seguintes links:
