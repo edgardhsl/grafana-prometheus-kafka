@@ -5,8 +5,8 @@ services:
     image: danielqsj/kafka-exporter
     ports:
       - 9308:9308
-    environment:
-      - KAFKA_SERVER=kafka:9092
+    command: --kafka.server=172.21.176.18:9092
+
 
   prometheus:
     image: prom/prometheus
@@ -26,3 +26,12 @@ services:
     volumes:
       - ./grafana:/var/lib/grafana
       - ./provisioning:/etc/grafana/provisioning
+    environment:
+      GF_RENDERING_SERVER_URL: http://renderer:8081/render
+      GF_RENDERING_CALLBACK_URL: http://grafana:3000/
+      GF_LOG_FILTERS: rendering:debug
+
+  renderer:
+    image: grafana/grafana-image-renderer:latest
+    ports:
+      - 8081
