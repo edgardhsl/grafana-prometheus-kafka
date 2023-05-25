@@ -76,4 +76,6 @@ No campo "URL", insira `http://prometheus:9090`.
 Clique em "Save & Test" para salvar a configuração e testar a conexão com o Prometheus.
 
 ### 7. Explore os dashboards e crie painéis:
-Agora você está pronto para explorar os dashboards pré-configurados (se você adicionou os arquivos de dashboard) ou criar seus próprios painéis no Grafana. Você
+Agora você está pronto para explorar os dashboards pré-configurados (se você adicionou os arquivos de dashboard) ou criar seus próprios painéis no Grafana. 
+Você também pode adicionar o dashboard do Kafka Exporter disponível no site do Grafana:
+https://grafana.com/grafana/dashboards/7589-kafka-exporter-overview/
